@@ -1,0 +1,2 @@
+E:\Git\ESRI\Build\ESRI\ESRI.csproj;x86
+E:\Git\ESRI\Build\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
