@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ESRI.unity
     guid: 286c97b229f08cc4d9c59b7f155ddf45
+  - enabled: 1
+    path: Assets/Scenes/Terrain.unity
+    guid: 74483c4ee71267942978b13c9e8dcffc

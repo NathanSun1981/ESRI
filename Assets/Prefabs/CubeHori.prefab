@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114473614526729804}
   - component: {fileID: 114128754103023860}
   m_Layer: 5
-  m_Name: MenuControl
+  m_Name: Control
   m_TagString: ControlButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

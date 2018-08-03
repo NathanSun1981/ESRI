@@ -47,19 +47,22 @@ namespace Academy.HoloToolkit.Unity
             gestureRecognizer.SetRecognizableGestures(GestureSettings.Tap | GestureSettings.Hold | GestureSettings.ManipulationTranslate);
 
             gestureRecognizer.Tapped += GestureRecognizer_Tapped;
+
             //订阅Manipulation gesture事件  
             gestureRecognizer.HoldStartedEvent += GestureRecognizer_HoldStartedEvent;
             gestureRecognizer.HoldCompletedEvent += GestureRecognizer_HoldCompletedEvent;
+            
 
             gestureRecognizer.ManipulationStartedEvent += GestureRecognizer_ManipulationStartedEvent;
             gestureRecognizer.ManipulationUpdatedEvent += GestureRecognizer_ManipulationUpdatedEvent;
             gestureRecognizer.ManipulationCompletedEvent += GestureRecognizer_ManipulationCompletedEvent;
             gestureRecognizer.ManipulationCanceledEvent += GestureRecognizer_ManipulationCanceledEvent;
+            
 
             // Start looking for gestures.
             gestureRecognizer.StartCapturingGestures();
         }
-
+        
         private void GestureRecognizer_ManipulationStartedEvent(InteractionSourceKind source, Vector3 cumulativeDelta, Ray headRay)
         {
             //当被关注的对象非空时，设置初始位置  
@@ -128,7 +131,6 @@ namespace Academy.HoloToolkit.Unity
             }
         }
 
-
         private void GestureRecognizer_Tapped(TappedEventArgs args)
         {
             if (focusedObject != null)
@@ -137,6 +139,9 @@ namespace Academy.HoloToolkit.Unity
             }
         }
 
+        
+
+        
         private void GestureRecognizer_HoldStartedEvent(InteractionSourceKind source, Ray headRay)
         {
             if (focusedObject != null)
@@ -149,6 +154,7 @@ namespace Academy.HoloToolkit.Unity
         {
 
         }
+        
 
 
         void LateUpdate()
@@ -182,12 +188,14 @@ namespace Academy.HoloToolkit.Unity
         {
             gestureRecognizer.StopCapturingGestures();
             gestureRecognizer.Tapped -= GestureRecognizer_Tapped;
+            
             gestureRecognizer.HoldStartedEvent -= GestureRecognizer_HoldStartedEvent;
             gestureRecognizer.HoldCompletedEvent -= GestureRecognizer_HoldCompletedEvent;
             gestureRecognizer.ManipulationStartedEvent -= GestureRecognizer_ManipulationStartedEvent;
             gestureRecognizer.ManipulationUpdatedEvent -= GestureRecognizer_ManipulationUpdatedEvent;
             gestureRecognizer.ManipulationCompletedEvent -= GestureRecognizer_ManipulationCompletedEvent;
             gestureRecognizer.ManipulationCanceledEvent -= GestureRecognizer_ManipulationCanceledEvent;
+            
         }
     }
 }

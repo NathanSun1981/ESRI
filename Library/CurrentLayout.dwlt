@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 734
     width: 1019
     height: 213
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 342}
   m_MaxSize: {x: 4004, y: 8042}
   vertical: 1
-  controlID: 128
+  controlID: 52
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 154
+  controlID: 29
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 1
-  controlID: 125
+  controlID: 26
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 126
+  controlID: 27
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,8 +185,8 @@ MonoBehaviour:
     y: 0
     width: 447
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 0
-  controlID: 127
+  controlID: 28
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,8 +324,8 @@ MonoBehaviour:
     y: 0
     width: 1019
     height: 734
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -431,19 +431,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/EsriToolkit/TerrainMap/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/EsriToolkit/TerrainMap/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Git\ESRI
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 26}
-    m_SelectedIDs: 6c2b0000
-    m_LastClickedID: 11116
-    m_ExpandedIDs: 00000000ac290000ee290000562a0000722a0000882a0000682b00006c2b00007c2b0000642d00008c2d0000a82d0000ee2e0000383300003a33000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 223}
+    m_SelectedIDs: aa300000
+    m_LastClickedID: 12458
+    m_ExpandedIDs: 00000000142b0000e22b0000ec2b0000382c00004e2c0000822c00009e2c0000823000009a300000a0300000b4300000c032000002330000343300003633000056350000ee350000883e00008a3e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -471,7 +471,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ac290000562a0000722a0000682b00006c2b00007c2b00008c2d0000a82d0000ee2e0000383300003a330000
+    m_ExpandedIDs: 00000000142b0000822b0000ec2b00004e2c0000822c00009e2c00009a300000a0300000b4300000c03200000233000034330000ee350000883e00008a3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -499,7 +499,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: ce3a000090290000c2370000a4290000942900005c2d00006c2d00007c2b0000842900004a0600007e2900003a2a00005e2a0000302a00004a2a00006e2a0000542a0000e4290000522a00002e2a0000ce070000e2290000082a0000b22a0000f62a000092390000a6390000e62a00002e2b00002c35000000000000662d0000dc290000f425fbffaa2d0000bc06eaff662a000056fdeaff
+    m_ExpandedInstanceIDs: ce3a000090290000c2370000a4290000942900005c2d00006c2d00007c2b0000842900004a0600007e2900003a2a00005e2a0000302a00004a2a00006e2a0000542a0000e4290000522a00002e2a0000ce070000e2290000082a0000b22a0000f62a000092390000a6390000e62a00002e2b00002c35000000000000662d0000dc290000f425fbffaa2d0000bc06eaff662a000056fdeaff202c000044f3feff6a060000383300001ae4fdff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,26 +591,26 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 18abe0ff1cace0ff86aee0ff46bde0ff4abee0ffaec0e0ffe6cee0ff70dfe0ff74e0e0ffdee2e0ff9a14e1ffbc14e1ff2c20e1ff3021e1ff9a23e1ffbc86e1ffde86e1fff893e1fff294e1ff5c97e1ff74bce1ff96bce1ff7e0be2ff480ee2ff6619e2ff0c33e2ff0e34e2ff8c36e2ff2a4ee2ffae57e2ffaa58e2ff245be2ff1694e2ff1a95e2ff8497e2ffc071e3ff7877e3ff5879e3ff7a7fe3ff9c7fe3ff16dee3ff6819e4ff6c1ae4ffd61ce4ffc86ee4ff227ce4fff8c8e4fff6c9e4ff5ecce4ff687ee5ff163be6ff3441e6ff2c50e6ff2a51e6ff9253e6ff7c5be6ff7e5ce6ffe65ee6fffe1ce7ff9628e7ff8834e8ffa65ae8ffa65be8ff085ee8ffb8a8e9ff08bfe9ff0ac0e9ff70c2e9ff12e4e9ff10e5e9ff76e7e9fff42beaff58b1eaff3016ebff8a47ebff8c47ebff8e55ecff7269ecff4604edff3c05edffa207edffc86beeffc46ceeff266feeffaafceeffa6fdeeff0800efffec73efff6479efffe681efffe682efff5685efff9c91efff9a92efff0c95efff1c48f0ff1449f0ff764bf0ff8abef0ff8cbff0ffeec1f0ff7ccaf0ff7ecbf0ffe0cdf0ffd2c9f1ffd2caf1ff22cdf1ffce86f2fff086f2ff5eaaf2ffa6d2f2ffc8d2f2ff7c0ef3ff9e0ef3ff0632f3ff0233f3ff4036f3ffe854f3ffe055f3ff3e58f3ff9e62f3ffa463f3ffee66f3ff7474f3ff6c75f3ffca77f3ff4483f3ff3c84f3ff9a86f3ff96a8f3ff86a9f3ffd4abf3ffbcbaf3ffacbbf3fffabdf3ff96c8f3ff84c9f3ffd2cbf3ffee59f5ff0c5df5ffcc51f6ff48d7f6ff40d9f6ff044cf7ff1c4cf7ffd4c1f7ffc8c2f7ff20c5f7ff0e0ef8ff040ff8ff5c11f8ffb657f8ffb058f8ff045bf8ffaecdf8ffb0cdf8ffb2cdf8ff54cff8ff56cff8ff6ccff8ff72d1f8ff74d1f8ff581cf9ff4e1df9ffa41ff9ff66e9f9ff7a76faff167cfbff1c7cfbff207cfbff8202fcff7603fcffda05fcffd483fcffb884fcff0487fcff02a0fcfff0a0fcff3ca3fcff120cfdff9a6cfdffc27cfdffac7dfdff0080fdffb2a7fdff2eabfdff12adfdff1cd0feff0cd1feff60d3feff6cfbffff98fbffff000000002e360000c6630000d4630000da650000f4650000f66a0000987300006a750000787500005c770000368a0000b08b00004c950000209a00009a9b0000c29f0000d29f00003ea10000
+    m_ExpandedIDs: ecddf7ffdedef7ff70e1f7ff1255f8ff0056f8ff8458f8ff9467f8ff9668f8ff066bf8ff2c8cf8ffd4a5f8ffd6a6f8ff68a9f8ff30bef8ff32bff8ffa2c1f8ff2ac9f8ff2ccaf8ff9cccf8ff0a14f9ff0015f9ff6418f9ff4e36f9ff3c37f9ffc039f9ff36e8f9ff36e9f9ffbaebf9ff80f7f9ff80f8f9ff04fbf9ff4c0bfaff4c0cfaffd00efaff9a31faffa432faff2835faffe43bfaffee3cfaff723ffaff7a4efaff824ffaff0652fafffe58faff065afaff8a5cfaff6a66faff7267fafff669faffb078faffb879faff3c7cfaff2c92faff1a93faffa095faffbea4faffb2a5faff38a8faffe61bfbffe41cfbff6e1ffbff3271fbff08a6fbff0aa6fbff84ccfbff72cdfbfff8cffbfff4e2fbfff0e3fbff76e6fbffde1bfcffdc1cfcff641ffcff883afcff863bfcff0e3efcffac87fcffae87fcffba14feff84fffeff8afffeff8efffeff92fffeff96fffeff9804ffff483fffff7453ffff7c54ffff0257ffff988fffff8890ffff0e93ffff76c4ffffd8faffff00000000e63e0000044b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: MapControl
+      m_OriginalName: MapControl
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -516480
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
   m_ExpandedScenes:
-  - ESRI
+  - Terrain
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -642,14 +642,14 @@ MonoBehaviour:
     height: 713
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 263881.688796
+  lastFramingTime: 174847.8547298
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 2}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 2}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -673,13 +673,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.014585843, y: 0.11671729, z: 0.0017150169, w: 0.9930566}
+    m_Target: {x: 0.026599355, y: -0.07938465, z: -0.0021197184, w: -0.9964869}
     speed: 2
-    m_Value: {x: -0.014585843, y: 0.11671729, z: 0.0017150169, w: 0.9930566}
+    m_Value: {x: 0.026599355, y: -0.07938465, z: -0.0021197184, w: -0.9964869}
   m_Size:
-    m_Target: 0.30294022
+    m_Target: 39.911247
     speed: 2
-    m_Value: 0.30294022
+    m_Value: 39.911247
   m_Ortho:
     m_Target: 0
     speed: 2

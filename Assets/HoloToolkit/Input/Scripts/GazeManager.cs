@@ -48,7 +48,7 @@ namespace Academy.HoloToolkit.Unity
         private Vector3 gazeOrigin;
         private Vector3 gazeDirection;
         private float lastHitDistance = 15.0f;
-        private GameObject focusedObject;
+        public GameObject FocusedObject { get; private set; }
 
         private void Update()
         {
@@ -73,7 +73,7 @@ namespace Academy.HoloToolkit.Unity
                            MaxGazeDistance,
                            RaycastLayerMask);
 
-            GameObject oldFocusedObject = focusedObject;
+            GameObject oldFocusedObject = FocusedObject;
             // Update the HitInfo property so other classes can use this hit information.
             HitInfo = hitInfo;
 
@@ -83,7 +83,7 @@ namespace Academy.HoloToolkit.Unity
                 Position = hitInfo.point;
                 Normal = hitInfo.normal;
                 lastHitDistance = hitInfo.distance;
-                focusedObject = hitInfo.collider.gameObject;
+                FocusedObject = hitInfo.collider.gameObject;
             }
             else
             {
@@ -91,19 +91,19 @@ namespace Academy.HoloToolkit.Unity
                 // and the normal to face the user.
                 Position = gazeOrigin + (gazeDirection * lastHitDistance);
                 Normal = gazeDirection;
-                focusedObject = null;
+                FocusedObject = null;
             }
 
             // Check if the currently hit object has changed
-            if (oldFocusedObject != focusedObject)
+            if (oldFocusedObject != FocusedObject)
             {
                 if (oldFocusedObject != null)
                 {
                     oldFocusedObject.SendMessage("OnGazeLeave", SendMessageOptions.DontRequireReceiver);
                 }
-                if (focusedObject != null)
+                if (FocusedObject != null)
                 {
-                    focusedObject.SendMessage("OnGazeEnter", SendMessageOptions.DontRequireReceiver);
+                    FocusedObject.SendMessage("OnGazeEnter", SendMessageOptions.DontRequireReceiver);
                 }
             }
         }
